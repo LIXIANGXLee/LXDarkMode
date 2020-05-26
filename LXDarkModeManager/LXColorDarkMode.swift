@@ -45,9 +45,10 @@ public extension UIColor {
 
    
    // MARK: - 构造函数（十六进制）
+    ///hex  颜色（十六进制）
+    ///alpha   透明度
    convenience init?(hex : String,
-                     _ alpha : CGFloat = 1.0)
-   {
+                     _ alpha : CGFloat = 1.0){
        var cHex = hex.trimmingCharacters(in: CharacterSet.whitespaces).uppercased()
        guard cHex.count >= 6 else {
            return nil
