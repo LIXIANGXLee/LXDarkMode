@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LXDarkModeManager"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "Swift 暗黑模式适配"
 
   # This description is used to generate tags and improve search results.

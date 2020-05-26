@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0451955D00711A7FBB17EBFBE50AB27A /* LXColorDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64D8A712933BC00A8A37ACD2A24DA9 /* LXColorDarkMode.swift */; };
+		0451955D00711A7FBB17EBFBE50AB27A /* LXColorDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1962ECC4CBB69EC4BA92D389DD44E5B /* LXColorDarkMode.swift */; };
 		0D0DC459F972595B51C5C4C708FADB54 /* Pods-LXDarkMode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEB4B22A7F4AF1CABA8170B07EA4E7B /* Pods-LXDarkMode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CB3D0A090E40167D9DCCA546C99D0EF /* LXImageDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950C2F4481BBED353F5D3BC064C4351 /* LXImageDarkMode.swift */; };
+		4CB3D0A090E40167D9DCCA546C99D0EF /* LXImageDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FDDF05906DA6C903E379B9E4B2C8 /* LXImageDarkMode.swift */; };
 		7E8E30D0B49B9F50650D692D18A4B7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8EDB632EF3E825E218648F46DC775D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CFDA27AE60276E80835006CBDC8EC086 /* LXDarkModeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46340840869D6A83254668182338D8F1 /* LXDarkModeManager-dummy.m */; };
-		F68B800ED3235BAC9C88306274475550 /* LXDarkModeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F916773384F6F10542A8778E85324A38 /* LXDarkModeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA27AE60276E80835006CBDC8EC086 /* LXDarkModeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A478D652FF701153C17CC7B0EF934C7 /* LXDarkModeManager-dummy.m */; };
+		F68B800ED3235BAC9C88306274475550 /* LXDarkModeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA45381011ECCD31F6797F65773AF775 /* LXDarkModeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA340ED8D428EE06E095F0A40CF34436 /* Pods-LXDarkMode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C72E718D2BA7BBD5CFBF36A68C693D69 /* Pods-LXDarkMode-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,28 +29,29 @@
 
 /* Begin PBXFileReference section */
 		01C0C8D58C9EAB7D80AE8F532A1AB4CE /* Pods-LXDarkMode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXDarkMode.modulemap"; sourceTree = "<group>"; };
-		0950C2F4481BBED353F5D3BC064C4351 /* LXImageDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXImageDarkMode.swift; path = LXDarkModeManager/LXImageDarkMode.swift; sourceTree = "<group>"; };
 		0BEB4B22A7F4AF1CABA8170B07EA4E7B /* Pods-LXDarkMode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXDarkMode-umbrella.h"; sourceTree = "<group>"; };
 		22237978C2931B7C2EC4DFBAC7405828 /* Pods-LXDarkMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXDarkMode.release.xcconfig"; sourceTree = "<group>"; };
-		236E41CEA83A415FB91FAE6487AA292A /* LXDarkModeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46340840869D6A83254668182338D8F1 /* LXDarkModeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXDarkModeManager-dummy.m"; sourceTree = "<group>"; };
+		37345CC5A6F1896433DC2B2713026E6F /* LXDarkModeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXDarkModeManager-Info.plist"; sourceTree = "<group>"; };
+		3A70ABF0EC08B7689A1D0D6E0012809E /* LXDarkModeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.debug.xcconfig; sourceTree = "<group>"; };
+		41E3FDDF05906DA6C903E379B9E4B2C8 /* LXImageDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXImageDarkMode.swift; path = LXDarkModeManager/LXImageDarkMode.swift; sourceTree = "<group>"; };
 		4E8CA59310B0448363E27C899ABEFFB9 /* Pods-LXDarkMode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXDarkMode-frameworks.sh"; sourceTree = "<group>"; };
-		4F64D8A712933BC00A8A37ACD2A24DA9 /* LXColorDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXColorDarkMode.swift; path = LXDarkModeManager/LXColorDarkMode.swift; sourceTree = "<group>"; };
+		4EA5FDDD5A88E1E2D9569123A60A063E /* LXDarkModeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.release.xcconfig; sourceTree = "<group>"; };
 		5A04F0104BF1F52DB07DBFE0EEE3440D /* Pods-LXDarkMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXDarkMode.debug.xcconfig"; sourceTree = "<group>"; };
-		5C7F6A45FCD8FC9C849DCCCD5C6A3EFB /* LXDarkModeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXDarkModeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5FF3E2AFA8ADD29665614B2171BB52CB /* LXDarkModeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-prefix.pch"; sourceTree = "<group>"; };
-		6699C5CCB5E1AAEFE70A58DDC2E3B940 /* Pods_LXDarkMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXDarkMode.framework; path = "Pods-LXDarkMode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67D7FF0B6BDDE4FCC0CB6D6994E7F4C4 /* LXDarkModeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXDarkModeManager.framework; path = LXDarkModeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A770DEA3A078FB93DA73426F567726 /* LXDarkModeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXDarkModeManager.modulemap; sourceTree = "<group>"; };
+		6699C5CCB5E1AAEFE70A58DDC2E3B940 /* Pods_LXDarkMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDarkMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D7FF0B6BDDE4FCC0CB6D6994E7F4C4 /* LXDarkModeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXDarkModeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCF1A2B513439D5C331C345B092FEC9 /* LXDarkModeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXDarkModeManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7A478D652FF701153C17CC7B0EF934C7 /* LXDarkModeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXDarkModeManager-dummy.m"; sourceTree = "<group>"; };
 		862C57CBE08635B86BF12F6AAC961AE1 /* Pods-LXDarkMode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXDarkMode-acknowledgements.plist"; sourceTree = "<group>"; };
 		945C9F5AAA28F9417EA2A05A5EFD3E6B /* Pods-LXDarkMode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXDarkMode-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AEE9F40A1CF18B8B120376F1C70AAEC9 /* LXDarkModeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXDarkModeManager.modulemap; sourceTree = "<group>"; };
-		BFD62F770A5D21C182A533E0EADE09C7 /* LXDarkModeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.debug.xcconfig; sourceTree = "<group>"; };
-		C2BEEEA8F898042FE53210AA51E5936D /* LXDarkModeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXDarkModeManager-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B68DF7C282DBA14AC99A0E8F52EBA01B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C72E718D2BA7BBD5CFBF36A68C693D69 /* Pods-LXDarkMode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXDarkMode-dummy.m"; sourceTree = "<group>"; };
 		CA41C5755F2EC5E5E91A4D1EB5564AD0 /* Pods-LXDarkMode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXDarkMode-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F916773384F6F10542A8778E85324A38 /* LXDarkModeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-umbrella.h"; sourceTree = "<group>"; };
+		D5069A00BC6FB66D311A6F278BA45B14 /* LXDarkModeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-prefix.pch"; sourceTree = "<group>"; };
+		DA45381011ECCD31F6797F65773AF775 /* LXDarkModeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-umbrella.h"; sourceTree = "<group>"; };
+		F1962ECC4CBB69EC4BA92D389DD44E5B /* LXColorDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXColorDarkMode.swift; path = LXDarkModeManager/LXColorDarkMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,26 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		053FC6DBEE54F3F90170F78B4AD64DC2 /* LXDarkModeManager */ = {
-			isa = PBXGroup;
-			children = (
-				4F64D8A712933BC00A8A37ACD2A24DA9 /* LXColorDarkMode.swift */,
-				0950C2F4481BBED353F5D3BC064C4351 /* LXImageDarkMode.swift */,
-				0BEF0D7ED381C02B946428022E0B6AFB /* Pod */,
-				7127C1AA01348A00328D74FC5DBF6C09 /* Support Files */,
-			);
-			name = LXDarkModeManager;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		0BEF0D7ED381C02B946428022E0B6AFB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5C7F6A45FCD8FC9C849DCCCD5C6A3EFB /* LXDarkModeManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2443E26C783873B4E41882F8226DC1AE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,27 +82,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3405BDD356955C8C1579E76C36CF0DD4 /* LXDarkModeManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1962ECC4CBB69EC4BA92D389DD44E5B /* LXColorDarkMode.swift */,
+				41E3FDDF05906DA6C903E379B9E4B2C8 /* LXImageDarkMode.swift */,
+				92796C4E45991BBA19D031A24DE4FCF0 /* Pod */,
+				9B0B98DB28583AC56A49524DD1C7EE2E /* Support Files */,
+			);
+			name = LXDarkModeManager;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		448FE0C9428E0D16C00F4A56CD711ABD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				053FC6DBEE54F3F90170F78B4AD64DC2 /* LXDarkModeManager */,
+				3405BDD356955C8C1579E76C36CF0DD4 /* LXDarkModeManager */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7127C1AA01348A00328D74FC5DBF6C09 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEE9F40A1CF18B8B120376F1C70AAEC9 /* LXDarkModeManager.modulemap */,
-				46340840869D6A83254668182338D8F1 /* LXDarkModeManager-dummy.m */,
-				C2BEEEA8F898042FE53210AA51E5936D /* LXDarkModeManager-Info.plist */,
-				5FF3E2AFA8ADD29665614B2171BB52CB /* LXDarkModeManager-prefix.pch */,
-				F916773384F6F10542A8778E85324A38 /* LXDarkModeManager-umbrella.h */,
-				BFD62F770A5D21C182A533E0EADE09C7 /* LXDarkModeManager.debug.xcconfig */,
-				236E41CEA83A415FB91FAE6487AA292A /* LXDarkModeManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/LXDarkModeManager";
 			sourceTree = "<group>";
 		};
 		73A26D1C31FB7DA99C6C912B983B2E53 /* Pods-LXDarkMode */ = {
@@ -139,6 +117,30 @@
 			);
 			name = "Pods-LXDarkMode";
 			path = "Target Support Files/Pods-LXDarkMode";
+			sourceTree = "<group>";
+		};
+		92796C4E45991BBA19D031A24DE4FCF0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6BCF1A2B513439D5C331C345B092FEC9 /* LXDarkModeManager.podspec */,
+				B68DF7C282DBA14AC99A0E8F52EBA01B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B0B98DB28583AC56A49524DD1C7EE2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62A770DEA3A078FB93DA73426F567726 /* LXDarkModeManager.modulemap */,
+				7A478D652FF701153C17CC7B0EF934C7 /* LXDarkModeManager-dummy.m */,
+				37345CC5A6F1896433DC2B2713026E6F /* LXDarkModeManager-Info.plist */,
+				D5069A00BC6FB66D311A6F278BA45B14 /* LXDarkModeManager-prefix.pch */,
+				DA45381011ECCD31F6797F65773AF775 /* LXDarkModeManager-umbrella.h */,
+				3A70ABF0EC08B7689A1D0D6E0012809E /* LXDarkModeManager.debug.xcconfig */,
+				4EA5FDDD5A88E1E2D9569123A60A063E /* LXDarkModeManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/LXDarkModeManager";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -246,7 +248,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -312,9 +314,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1032B0780CAC3F6CD936DEF37E0E0E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 		255AADF206A93A47AF2EF080D9F10A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFD62F770A5D21C182A533E0EADE09C7 /* LXDarkModeManager.debug.xcconfig */;
+			baseConfigurationReference = 3A70ABF0EC08B7689A1D0D6E0012809E /* LXDarkModeManager.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -347,120 +409,7 @@
 			};
 			name = Debug;
 		};
-		3EF742E61F68AF6B4A28E7060D099C3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A04F0104BF1F52DB07DBFE0EEE3440D /* Pods-LXDarkMode.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6DA79176217AF339ADD4447997FCFD61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22237978C2931B7C2EC4DFBAC7405828 /* Pods-LXDarkMode.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		79DD1307C8AF1BF7520B303CC7BF0694 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 236E41CEA83A415FB91FAE6487AA292A /* LXDarkModeManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXDarkModeManager/LXDarkModeManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager.modulemap";
-				PRODUCT_MODULE_NAME = LXDarkModeManager;
-				PRODUCT_NAME = LXDarkModeManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+		3DCABF71ABF98C4E186DBF23A89D8D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -524,65 +473,118 @@
 			};
 			name = Debug;
 		};
-		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+		620D521585977AB926433D069B3CD4AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22237978C2931B7C2EC4DFBAC7405828 /* Pods-LXDarkMode.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		79DD1307C8AF1BF7520B303CC7BF0694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA5FDDD5A88E1E2D9569123A60A063E /* LXDarkModeManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXDarkModeManager/LXDarkModeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager.modulemap";
+				PRODUCT_MODULE_NAME = LXDarkModeManager;
+				PRODUCT_NAME = LXDarkModeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C59B62A62F4FB8DCD87385D711D7A49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A04F0104BF1F52DB07DBFE0EEE3440D /* Pods-LXDarkMode.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -590,8 +592,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
-				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+				3DCABF71ABF98C4E186DBF23A89D8D7F /* Debug */,
+				1032B0780CAC3F6CD936DEF37E0E0E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,8 +610,8 @@
 		B48072A22BC4C52070C32F29AEDC5108 /* Build configuration list for PBXNativeTarget "Pods-LXDarkMode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EF742E61F68AF6B4A28E7060D099C3E /* Debug */,
-				6DA79176217AF339ADD4447997FCFD61 /* Release */,
+				C59B62A62F4FB8DCD87385D711D7A49A /* Debug */,
+				620D521585977AB926433D069B3CD4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

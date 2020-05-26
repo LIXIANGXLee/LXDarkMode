@@ -17,11 +17,12 @@ public extension UIColor {
     ///darkHex   深色模式的颜色（十六进制）
     ///return    返回一个颜色（UIColor）
     static func color(lightHex: String,
-                      darkHex: String)
+                      darkHex: String,
+                      alpha: CGFloat = 1.0)
         -> UIColor {
-        return color(lightColor: UIColor(hex: lightHex) ?? UIColor.black, darkColor: UIColor(hex: darkHex) ?? UIColor.white)
+        return color(lightColor: UIColor(hex: lightHex, alpha) ?? UIColor.black, darkColor: UIColor(hex: darkHex, alpha) ?? UIColor.white)
     }
-    
+
     // MARK: - extension 适配深色模式 浅色模式 非layer
     ///lightColor  浅色模式的颜色（UIColor）
     ///darkColor   深色模式的颜色（UIColor）
