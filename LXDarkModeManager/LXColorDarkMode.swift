@@ -20,7 +20,10 @@ public extension UIColor {
                       darkHex: String,
                       alpha: CGFloat = 1.0)
         -> UIColor {
-        return color(lightColor: UIColor(hex: lightHex, alpha) ?? UIColor.black, darkColor: UIColor(hex: darkHex, alpha) ?? UIColor.white)
+        let light = UIColor(hex: lightHex, alpha) ?? UIColor.black
+        let dark =  UIColor(hex: darkHex, alpha) ?? UIColor.white
+            
+        return color(lightColor: light, darkColor: dark)
     }
 
     // MARK: - extension 适配深色模式 浅色模式 非layer
@@ -48,7 +51,7 @@ public extension UIColor {
     ///hex  颜色（十六进制）
     ///alpha   透明度
    convenience init?(hex : String,
-                     _ alpha : CGFloat = 1.0){
+                     _ alpha : CGFloat = 1.0) {
        var cHex = hex.trimmingCharacters(in: CharacterSet.whitespaces).uppercased()
        guard cHex.count >= 6 else {
            return nil
