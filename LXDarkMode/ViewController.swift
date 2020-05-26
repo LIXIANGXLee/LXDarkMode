@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
       
         
-        self.view.backgroundColor = UIColor.color(lightColor: <#T##UIColor#>, darkColor: <#T##UIColor#>)
+        self.view.backgroundColor = UIColor.color(lightColor: UIColor.white, darkColor: UIColor.lightGray)
         
         
         let imgView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
