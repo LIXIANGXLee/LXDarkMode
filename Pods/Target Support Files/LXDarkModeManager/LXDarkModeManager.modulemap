@@ -1,0 +1,6 @@
+framework module LXDarkModeManager {
+  umbrella header "LXDarkModeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

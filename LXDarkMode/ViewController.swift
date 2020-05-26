@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import LXDarkModeManager
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        
+        self.view.backgroundColor = UIColor.color(lightColor: UIColor.red, darkColor: UIColor.green)
+        
+        UIColor.color(lightHex: <#T##String#>, darkHex: <#T##String#>)
+        
+        let imgView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        
+        imgView.image = UIImage.image(light: UIImage(), dark: UIImage())
+        imgView.image = UIImage.image(light: UIImage(named: "tabbar_item1_select")!, dark: UIImage(named: "tabbar_item1")!)
+        
+        
+        view.addSubview(imgView)
+        
     }
 
 

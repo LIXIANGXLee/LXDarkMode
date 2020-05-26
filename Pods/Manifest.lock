@@ -1,0 +1,16 @@
+PODS:
+  - LXDarkModeManager (1.0.0)
+
+DEPENDENCIES:
+  - LXDarkModeManager (from `./`)
+
+EXTERNAL SOURCES:
+  LXDarkModeManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXDarkModeManager: 22755b7a5b8986a8048a9e5b990185da1f14bcab
+
+PODFILE CHECKSUM: 00fdbf41c4ebe9cf16de8c334c2170e2f669fefb
+
+COCOAPODS: 1.9.1

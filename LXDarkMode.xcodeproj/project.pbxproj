@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		0457D785247CB30A0050CD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457D783247CB30A0050CD2C /* Main.storyboard */; };
 		0457D787247CB30D0050CD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457D786247CB30D0050CD2C /* Assets.xcassets */; };
 		0457D78A247CB30D0050CD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457D788247CB30D0050CD2C /* LaunchScreen.storyboard */; };
+		0457D797247CB3860050CD2C /* LXDarkModeManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0457D794247CB3860050CD2C /* LXDarkModeManager.podspec */; };
+		D46F26887C6270930B6300DB /* Pods_LXDarkMode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02070AD79800F9363FD93CF /* Pods_LXDarkMode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		0457D786247CB30D0050CD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0457D789247CB30D0050CD2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0457D78B247CB30D0050CD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0457D794247CB3860050CD2C /* LXDarkModeManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXDarkModeManager.podspec; sourceTree = "<group>"; };
+		962231B319CE6061FDF9764A /* Pods-LXDarkMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDarkMode.release.xcconfig"; path = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.release.xcconfig"; sourceTree = "<group>"; };
+		BDE4F91C3D858E0BA29DA8D1 /* Pods-LXDarkMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDarkMode.debug.xcconfig"; path = "Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode.debug.xcconfig"; sourceTree = "<group>"; };
+		D02070AD79800F9363FD93CF /* Pods_LXDarkMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDarkMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46F26887C6270930B6300DB /* Pods_LXDarkMode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +47,11 @@
 		0457D771247CB30A0050CD2C = {
 			isa = PBXGroup;
 			children = (
+				0457D794247CB3860050CD2C /* LXDarkModeManager.podspec */,
 				0457D77C247CB30A0050CD2C /* LXDarkMode */,
 				0457D77B247CB30A0050CD2C /* Products */,
+				2C9198EF74ADAFCE589FDBD5 /* Pods */,
+				71BB8BFC6D0C362226126354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +77,23 @@
 			path = LXDarkMode;
 			sourceTree = "<group>";
 		};
+		2C9198EF74ADAFCE589FDBD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDE4F91C3D858E0BA29DA8D1 /* Pods-LXDarkMode.debug.xcconfig */,
+				962231B319CE6061FDF9764A /* Pods-LXDarkMode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71BB8BFC6D0C362226126354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D02070AD79800F9363FD93CF /* Pods_LXDarkMode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0457D78E247CB30D0050CD2C /* Build configuration list for PBXNativeTarget "LXDarkMode" */;
 			buildPhases = (
+				C0BA52F032762174271FB5FD /* [CP] Check Pods Manifest.lock */,
 				0457D776247CB30A0050CD2C /* Sources */,
 				0457D777247CB30A0050CD2C /* Frameworks */,
 				0457D778247CB30A0050CD2C /* Resources */,
+				B30A2ADB993D66C4644C15F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +157,53 @@
 				0457D78A247CB30D0050CD2C /* LaunchScreen.storyboard in Resources */,
 				0457D787247CB30D0050CD2C /* Assets.xcassets in Resources */,
 				0457D785247CB30A0050CD2C /* Main.storyboard in Resources */,
+				0457D797247CB3860050CD2C /* LXDarkModeManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B30A2ADB993D66C4644C15F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXDarkMode/Pods-LXDarkMode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BA52F032762174271FB5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDarkMode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0457D776247CB30A0050CD2C /* Sources */ = {
@@ -282,10 +354,13 @@
 		};
 		0457D78F247CB30D0050CD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE4F91C3D858E0BA29DA8D1 /* Pods-LXDarkMode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4ACXVJNVR;
 				INFOPLIST_FILE = LXDarkMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +374,13 @@
 		};
 		0457D790247CB30D0050CD2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962231B319CE6061FDF9764A /* Pods-LXDarkMode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4ACXVJNVR;
 				INFOPLIST_FILE = LXDarkMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
